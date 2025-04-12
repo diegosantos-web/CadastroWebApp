@@ -1,0 +1,14 @@
+
+create database Cadastro;
+use cadastro;
+
+
+CREATE TABLE Cliente(
+ClienteId int IDENTITY(1,1) PRIMARY KEY,
+Empresa varchar (200) not null,
+Endereço varchar (150),
+Telefone varchar (15) not null
+);
+
+select *
+from cliente;
